@@ -1,0 +1,21 @@
+#Form{
+	border:10px;
+	border-radius:5px;
+	background-color:#408080;
+	width:450px;
+	height:550px;
+	border-color:black;
+	margin:auto;
+	padding:5px;
+	padding-left:5px;
+}
+body{
+	background-image:url("public_files_y.jpg");
+}
+#events{
+	border-radius:10px;
+	border-color:black;
+	background-color:#0080c0;
+	text-align:center;
+	color:white;
+}
