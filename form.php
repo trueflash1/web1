@@ -12,7 +12,7 @@
 			</div>
 			<form method="post" action="index.php" name="contract" >
 				<div id="nam">
-					<p>Name:<input maxlength="25" size="40" name="name" placeholder="First name Last Name"></p>
+					<p>Name:<input maxlength="25" size="40" name="name" placeholder="your name"></p>
 				</div>
 				<div id="address">
 					<p>Email:<input type="email" name="email" placeholder="email@yandex.ru"></p>
@@ -26,6 +26,12 @@
 						<option value="2001">2001</option>
 						<option value="2002">2002</option>
 						<option value="2003">2003</option>
+						<option value="1998">2004</option>
+						<option value="1999">2005</option>
+						<option value="2000">2006</option>
+						<option value="2001">2007</option>
+						<option value="2002">2008</option>
+						<option value="2003">2009</option>
 					</select>
 				</p>	
 				</div>
@@ -40,18 +46,18 @@
 					<input type="radio" value="3" name="limbs">3
 					<input type="radio" value="4" name="limbs">4
 				</p>
-				<p>	<label for='sverh[]'>Superpowers:</label></br>
+				<p>	<label for='sverh[]'>Abikities:</label></br>
 					<select id="sposobnost" name="sverh[]" multiple="multiple" size="6">	
 						<option value="net" >None</option>
-						<option value="godmod">GodMode</option>
-						<option value="levitation">Levitation</option>
+						<option value="godmod">god</option>
+						<option value="levitation">nokills</option>
 						<option value="шnvisibility">Invisibility</option>
 						<option value="telekinesis">Telekinesis</option>
-						<option value="extrasensory">Extrasensory</option>
+						<option value="extrasensory">fly</option>
 					</select>
 				</p>
 					<textarea cols="40" rows="4" name="biography" placeholder="Here is your brief biography..."></textarea>
-					<p>Do you agree that you are selling your soul to the devil?
+					<p>YOUR REDY?
 					<input type="checkbox" name="consent" value="yes"></p>
 				<input type="submit" value="send">
 			</form>
