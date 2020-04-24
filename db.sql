@@ -1,12 +1,15 @@
-CREATE TABLE application (
-  id int(10) unsigned NOT NULL AUTO_INCREMENT,
-  name varchar(128) NOT NULL DEFAULT '',
-  email varchar(128) NOT NULL DEFAULT '',
-  birth int(4) NOT NULL DEFAULT 2000,
-  sex text(4) NOT NULL DEFAULT '',
-  limbs int(8) NOT NULL DEFAULT 0,
-  sverh text(128) NOT NULL DEFAULT '',
-  bio text(128) NOT NULL ,
-  consent text(8) NOT NULL DEFAULT 'no',
-  PRIMARY KEY (id)
+create table anketa(
+login int(10) not null,
+password varchar(128) not null,
+name varchar(128) not null default '',
+email varchar(128) not null default '',
+date varchar(128) not null default '',
+gender varchar(128) not null default '',
+limb varchar(128) not null default '',
+super1 varchar(128) not null default '',
+super2 varchar(128) not null default '',
+super3 varchar(128) not null default '',
+message varchar(128) not null default '',
+checker varchar(128) not null default '',
+PRIMARY KEY (login)
 );
